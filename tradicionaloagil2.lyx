@@ -83,34 +83,6 @@ donde los requisitos no pueden predecirse o bien pueden variar. }
 
 
 
-
-\paragraph{Ágil: El desarrollo ágil de software utiliza un desarrollo iterativo
-como base para abogar por un punto de vista más ligero y más centrado
-en las personas que en el caso de las soluciones tradicionales. Los
-procesos ágiles utilizan retroalimentación en lugar de planificación,
-como principal mecanismo de control. La retroalimentación se canaliza
-por medio de pruebas periódicas y frecuentes versiones del software.}
-
-
-\paragraph{En el caso de la programación extrema (XP), las fases se realizan
-en pasos muy cortos (o \textquotedbl{}continuos\textquotedbl{}) con
-respecto al anterior. El primer paso (intencionalmente incompleto)
-por los pasos puede ocurrir en un día o en una semana, en lugar de
-los meses o años de cada paso completo en el modelo en cascada. En
-primer lugar, se crean pruebas automatizadas para proveer metas concretas
-al desarrollo. Después se programa el código, que será completo cuando
-todas las pruebas se superan sin errores, y los desarrolladores ya
-no sabrían como mejorar el conjunto de pruebas necesario. El diseño
-y la arquitectura emergen a partir de la refactorización del código,
-y se da después de programar. El diseño lo realizan los propios desarrolladores
-del código. El sistema, incompleto, pero funcional se despliega para
-su demostración a los usuarios (al menos uno de los cuales pertenece
-al equipo de desarrollo). Llegado este punto, los profesionales comienzan
-a escribir las pruebas para la siguiente parte del sistema de más
-importancia.}
-
-
-
 \begin{tabular}{|>{\centering}p{5cm}|>{\centering}p{5cm}|}
 \hline 
 METODOLOGÍAS TRADICIONALES & METODOLOGÍAS ÁGILES\tabularnewline
