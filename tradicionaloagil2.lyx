@@ -1,326 +1,142 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
-\begin_document
-\begin_header
-\textclass article
-\use_default_options true
-\maintain_unincluded_children false
-\language spanish
-\language_package default
-\inputencoding auto
-\fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_default_family default
-\use_non_tex_fonts false
-\font_sc false
-\font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+% Vista preliminar del código fuente
 
-\graphics default
-\default_output_format default
-\output_sync 0
-\bibtex_command default
-\index_command default
-\paperfontsize default
-\spacing single
-\use_hyperref false
-\papersize default
-\use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine basic
-\use_bibtopic false
-\use_indices false
-\paperorientation portrait
-\suppress_date false
-\use_refstyle 1
-\index Index
-\shortcut idx
-\color #008000
-\end_index
-\secnumdepth 3
-\tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
-\quotes_language english
-\papercolumns 1
-\papersides 1
-\paperpagestyle default
-\tracking_changes false
-\output_changes false
-\html_math_output 0
-\html_css_as_file 0
-\html_be_strict false
-\end_header
+%% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[spanish]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
 
-\begin_body
+\makeatletter
 
-\begin_layout Title
-DESARROLLO DE SOFTWARE: TRADICIONAL O ÁGIL
-\end_layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
 
-\begin_layout Author
-SEBASTIAN FUENZALIDA, CLAUDIO QUIROZ
-\end_layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newcommand{\lyxaddress}[1]{
+\par {\raggedright #1
+\vspace{1.4em}
+\noindent\par}
+}
 
-\begin_layout Date
-17/10/2013
-\end_layout
+\makeatother
 
-\begin_layout Paragraph
-La Ingeniería de Software, es una disciplina que ha estudiado propuestas
- diferentes que permiten apoyar el proceso de desarrollo y construcción
- de software desde hace muchos años.
- Sin embargo, algunos de los proyectos de desarrollo fracasan o el resultado
- final no es el esperado, para el cliente o usuario final, inclusive para
- los propios desarrolladores, debido a la complejidad inherente del programa
- que impacta en la calidad y retraso del tiempo esperado o peor aún; porque
- el software entregado no tiene la funcionalidad requerida que apoye en
- la solución de los problemas de la empresa que lo solicitó.
-\end_layout
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
-\begin_layout Paragraph
-En los primeros días de la informática, se pensó que el principal motivo
- por el que los proyectos sufrían retraso y costes excesivos, era el hecho
- de que la programación no se llevaba a cabo adecuadamente.
- La solución a esto, fue la introducción de la Programación Estructurada.
- Este fue sin duda un salto importante, pero pronto se comprobó que los
- proyectos seguían experimentando retrasos y altos costos.
- Sin embargo, en la actualidad se han encontrado varios factores que pueden
- conllevar al fracaso de un proyecto de desarrollo de software.
- Actualmente, se distinguen 2 grandes grupos: las metodologías tradicionales
- y las ágiles.
-\end_layout
+\begin{document}
 
-\begin_layout Paragraph
-Generalmente, estas distintas metodologías se han basado en un conjunto
- de actividades básicamente técnicas, perfectamente diferenciadas y relacionadas
- con: análisis, diseño, programación y prueba.
- Lo que diferencia a las distintas metodologías es el grado de énfasis que
- ponen en las distintas actividades.
-\end_layout
-
-\begin_layout --Separator--
-
-\end_layout
-
-\begin_layout Paragraph
-Tradicional: Estas metodologías tradicionales imponen una disciplina de
- trabajo sobre el proceso de desarrollo del software, con el fin de conseguir
- un software más eficiente.
- Para ello, se hace énfasis en la planificación total de todo el trabajo
- a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo
- del producto software.
- Se centran especialmente en el control del proceso, mediante una rigurosa
- definición de roles, actividades, artefactos, herramientas y notaciones
- para el modelado y documentación detallada.
- Además, las metodologías tradicionales no se adaptan adecuadamente a los
- cambios, por lo que no son métodos adecuados cuando se trabaja en un entorno,
- donde los requisitos no pueden predecirse o bien pueden variar.
-\end_layout
-
-\begin_layout --Separator--
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="5cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-METODOLOGÍAS TRADICIONALES
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-METODOLOGÍAS ÁGILES
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Basadas en normas provenientes de estándares seguidos por el entorno de
- desarrollo
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Basadas en heurísticas provenientes prácticas de producción de código
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cierta resistencia a los cambios
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Especialmente preparados para cambios en el proyecto
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Metodologías impuestas externamente
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Metodologías impuestas internamente
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Proceso mucho más controlado, con numerosas políticas y normas
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Proceso menos controlado, con pocos principios
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-El cliente interactúa con el equipo de desarrollo mediante reuniones
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-El cliente es parte del equipo de desarrollo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell mroffset="2cm" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Grupos grandes y posiblemente distribuidos
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Grupos pequeños y trabajando en el mismo sitio
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-La arquitectura de software es esencial y se expresa mediante modelos
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Menos enfasis en la arquitectura de software
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Existe un contrato prefijado
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No existe contrato tradicional o al menos es muy flexible
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
+\title{DESARROLLO DE SOFTWARE: TRADICIONAL O ÁGIL}
 
 
-\end_layout
+\author{SEBASTIAN FUENZALIDA, CLAUDIO QUIROZ}
 
-\end_body
-\end_document
+
+\date{17/10/2013}
+
+\maketitle
+
+\paragraph{La Ingeniería de Software, es una disciplina que ha estudiado propuestas
+diferentes que permiten apoyar el proceso de desarrollo y construcción
+de software desde hace muchos años. Sin embargo, algunos de los proyectos
+de desarrollo fracasan o el resultado final no es el esperado, para
+el cliente o usuario final, inclusive para los propios desarrolladores,
+debido a la complejidad inherente del programa que impacta en la calidad
+y retraso del tiempo esperado o peor aún; porque el software entregado
+no tiene la funcionalidad requerida que apoye en la solución de los
+problemas de la empresa que lo solicitó.}
+
+
+\paragraph{En los primeros días de la informática, se pensó que el principal
+motivo por el que los proyectos sufrían retraso y costes excesivos,
+era el hecho de que la programación no se llevaba a cabo adecuadamente.
+La solución a esto, fue la introducción de la Programación Estructurada.
+Este fue sin duda un salto importante, pero pronto se comprobó que
+los proyectos seguían experimentando retrasos y altos costos. Sin
+embargo, en la actualidad se han encontrado varios factores que pueden
+conllevar al fracaso de un proyecto de desarrollo de software. Actualmente,
+se distinguen 2 grandes grupos: las metodologías tradicionales y las
+ágiles.}
+
+
+\paragraph{Generalmente, estas distintas metodologías se han basado en un conjunto
+de actividades básicamente técnicas, perfectamente diferenciadas y
+relacionadas con: análisis, diseño, programación y prueba. Lo que
+diferencia a las distintas metodologías es el grado de énfasis que
+ponen en las distintas actividades.}
+
+
+
+
+\paragraph{Tradicional: Estas metodologías tradicionales imponen una disciplina
+de trabajo sobre el proceso de desarrollo del software, con el fin
+de conseguir un software más eficiente. Para ello, se hace énfasis
+en la planificación total de todo el trabajo a realizar y una vez
+que está todo detallado, comienza el ciclo de desarrollo del producto
+software. Se centran especialmente en el control del proceso, mediante
+una rigurosa definición de roles, actividades, artefactos, herramientas
+y notaciones para el modelado y documentación detallada. Además, las
+metodologías tradicionales no se adaptan adecuadamente a los cambios,
+por lo que no son métodos adecuados cuando se trabaja en un entorno,
+donde los requisitos no pueden predecirse o bien pueden variar. }
+
+
+
+
+\paragraph{Ágil: El desarrollo ágil de software utiliza un desarrollo iterativo
+como base para abogar por un punto de vista más ligero y más centrado
+en las personas que en el caso de las soluciones tradicionales. Los
+procesos ágiles utilizan retroalimentación en lugar de planificación,
+como principal mecanismo de control. La retroalimentación se canaliza
+por medio de pruebas periódicas y frecuentes versiones del software.}
+
+
+\paragraph{En el caso de la programación extrema (XP), las fases se realizan
+en pasos muy cortos (o \textquotedbl{}continuos\textquotedbl{}) con
+respecto al anterior. El primer paso (intencionalmente incompleto)
+por los pasos puede ocurrir en un día o en una semana, en lugar de
+los meses o años de cada paso completo en el modelo en cascada. En
+primer lugar, se crean pruebas automatizadas para proveer metas concretas
+al desarrollo. Después se programa el código, que será completo cuando
+todas las pruebas se superan sin errores, y los desarrolladores ya
+no sabrían como mejorar el conjunto de pruebas necesario. El diseño
+y la arquitectura emergen a partir de la refactorización del código,
+y se da después de programar. El diseño lo realizan los propios desarrolladores
+del código. El sistema, incompleto, pero funcional se despliega para
+su demostración a los usuarios (al menos uno de los cuales pertenece
+al equipo de desarrollo). Llegado este punto, los profesionales comienzan
+a escribir las pruebas para la siguiente parte del sistema de más
+importancia.}
+
+
+
+\begin{tabular}{|>{\centering}p{5cm}|>{\centering}p{5cm}|}
+\hline 
+METODOLOGÍAS TRADICIONALES & METODOLOGÍAS ÁGILES\tabularnewline
+\hline 
+\hline 
+Basadas en normas provenientes de estándares seguidos por el entorno
+de desarrollo & Basadas en heurísticas provenientes prácticas de producción de código\tabularnewline
+\hline 
+Cierta resistencia a los cambios & Especialmente preparados para cambios en el proyecto\tabularnewline
+\hline 
+Metodologías impuestas externamente & Metodologías impuestas internamente\tabularnewline
+\hline 
+Proceso mucho más controlado, con numerosas políticas y normas & Proceso menos controlado, con pocos principios\tabularnewline
+\hline 
+El cliente interactúa con el equipo de desarrollo mediante reuniones & El cliente es parte del equipo de desarrollo\tabularnewline
+\hline 
+Grupos grandes y posiblemente distribuidos & Grupos pequeños y trabajando en el mismo sitio\tabularnewline
+\hline 
+La arquitectura de software es esencial y se expresa mediante modelos & Menos enfasis en la arquitectura de software\tabularnewline
+\hline 
+Existe un contrato prefijado & No existe contrato tradicional o al menos es muy flexible\tabularnewline
+\hline 
+\end{tabular}
+
+
+
+
+\lyxaddress{El código del presente informe se encuentra en: https://github.com/ClaudioQuiroz/ingenieriadesoftwarelocal}
+\end{document}
