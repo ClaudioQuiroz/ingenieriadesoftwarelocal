@@ -40,7 +40,7 @@
 \paragraph{La Ingeniería de Software, es una disciplina que ha estudiado propuestas
 diferentes que permiten apoyar el proceso de desarrollo y construcción
 de software desde hace muchos años. Sin embargo, algunos de los proyectos
-de desarrollo fracasan o el resultado final no es el esperado, para
+de desarrollo fracasan o el resultado final no es el esperado para
 el cliente o usuario final, inclusive para los propios desarrolladores,
 debido a la complejidad inherente del programa que impacta en la calidad
 y retraso del tiempo esperado o peor aún; porque el software entregado
@@ -60,7 +60,7 @@ se distinguen 2 grandes grupos: las metodologías tradicionales y las
 
 \paragraph{Generalmente, estas distintas metodologías se han basado en un conjunto
 de actividades básicamente técnicas, perfectamente diferenciadas y
-relacionadas con: análisis, diseño, programación y prueba. Lo que
+fuertemente relacionadas con: análisis, diseño, programación y prueba. Lo que
 diferencia a las distintas metodologías es el grado de énfasis que
 ponen en las distintas actividades.}
 
@@ -71,7 +71,7 @@ en la planificación total de todo el trabajo a realizar y una vez
 que está todo detallado, comienza el ciclo de desarrollo del producto
 software. Se centran especialmente en el control del proceso, mediante
 una rigurosa definición de roles, actividades, artefactos, herramientas
-y notaciones para el modelado y documentación detallada. Además, las
+y notaciones para el modelamiento y documentación detallada. Además, las
 metodologías tradicionales no se adaptan adecuadamente a los cambios,
 por lo que no son métodos adecuados cuando se trabaja en un entorno,
 donde los requisitos no pueden predecirse o bien pueden variar. }
@@ -79,7 +79,7 @@ donde los requisitos no pueden predecirse o bien pueden variar. }
 \paragraph{Ágil: El desarrollo ágil de software utiliza un desarrollo iterativo
 como base para abogar por un punto de vista más ligero y más centrado
 en las personas que en el caso de las soluciones tradicionales. Los
-procesos ágiles utilizan retroalimentación en lugar de planificación,
+procesos ágiles utilizan retroalimentación en lugar de planificación
 como principal mecanismo de control. La retroalimentación se canaliza
 por medio de pruebas periódicas y frecuentes versiones del software.}
 
