@@ -1,0 +1,54 @@
+% Vista preliminar del código fuente
+
+%% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[spanish]{article}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+
+\title{PATRONES DE DISEÑO}
+
+
+\author{Sebastian Fuenzalida, Andres Mardonez, Claudio Quiroz}
+
+\maketitle
+Hay variadas definiciones de patrones de diseño, como es algo intrínsecamente
+informático, se explican las variadas definiciones existentes en internet,
+sin embargo para el presente informe se escogió la siguiente:
+\begin{verse}
+\textquotedblleft{}Los patrones de diseño son el esqueleto de las
+soluciones a problemas comunes en el desarrollo de software.\textquotedblright{}
+\end{verse}
+En otras palabras, brindan una solución ya probada y documentada a
+problemas de desarrollo de software que están sujetos a contextos
+similares. Se debe tener presente los siguientes elementos de un patrón:
+su nombre, el problema (cuando aplicar un patrón), la solución (descripción
+abstracta del problema) y las consecuencias (costos y beneficios).
+
+Hay conceptos equivocados sobre que brindan los patrones de diseño
+\begin{itemize}
+\item {}``Los patrones garantizan software reutilizable, mayor productividad...\textquotedblright{}
+Los patrones por si solos no garantizan nada. Los patrones no excluyen
+a las personas del proceso creativo. Simplemente proveen esperanza
+de mejora a una persona posiblemente inexperta, recientemente iniciada
+en el tema, pero capaz y creativa. Los patrones no son más que otra
+herramienta del desarrollador.
+\item \textquotedblleft{}Los patrones generan arquitecturas completas\textquotedblright{}.
+La capacidad de generación de un patrón se encuentra en la explicación
+sobre las fuerzas y su solución, o en la discusión de las consecuencias
+del patrón. Estos conocimientos son especialmente útiles a la hora
+de definir y refinar una arquitectura. Pero creer que los patrones
+por si solos generan arquitecturas o cualquier otra cosa es erróneo.
+Los patrones no generan nada, sólo la gente lo hace.
+\item \textquotedblleft{}Los patrones son para diseño o implementación (orientado
+a objetos)\textquotedblright{}. Los patrones no son nada si no capturan
+experiencia. La naturaleza de esa experiencia es dejada al autor del
+patrón. Existe mucha experiencia que vale la pena capturar en el diseño
+orientado a objetos, pero también la hay otras áreas: diseño no orientado
+a objetos, mantenimiento, análisis, pruebas, documentación, estructura
+organizacional, etc.
+\end{itemize}
+
