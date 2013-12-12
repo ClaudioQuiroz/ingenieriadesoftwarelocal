@@ -52,3 +52,42 @@ a objetos, mantenimiento, análisis, pruebas, documentación, estructura
 organizacional, etc.
 \end{itemize}
 
+// parte de andres mardones...
+
+
+Patrones De Comportamiento
+Tienen que ver con algoritmos y asignación de responsabilidades. Estos
+patrones se focalizan en el flujo de control dentro de un sistema.
+Ciertas formas de organizar los controles dentro del sistema pueden
+llevar a grandes beneficios en cuanto a mantenibilidad y eficiencia.
+Algunos ejemplos de estos patrones incluyen la definición de abstracciones
+de algoritmos, las colaboraciones entre objetos para realizar tareas
+complejas reduciendo las dependencias o asociar comportamiento a objetos
+e invocar su ejecución. Los patrones de comportamiento basados en
+clases utilizan la herencia para distribuir el comportamiento entre
+clases, ellos son: Template Method e Interpreter. Mientras que los
+basados en objetos utilizan la composición.
+Ejemplo: este patrón puede observarse en las máquinas expendedoras
+de golosinas, las cuales pasan por distintos estados: stock disponible,
+dinero depositado, capacidad para dar vuelto, golosina seleccionada,
+etc. En cada uno de éstos estados la máquina se comporta distinta.
+Cuando se deposita dinero y se elije una golosina la expendedora puede
+entregar un producto y no cambiar su estado, entregar un producto
+y cambiar su estado (por ejemplo quedarse sin stock, en cuyo caso
+no entregará mas golosinas, o no entregar golosinas ya sea por falta
+de stock o cambio).
+A modo de Conclusión se puede decir lo siguiente
+La idea central del uso de Patrones de Diseño y Antipatrones de Desarrollo
+básicamente consiste en la utilización de técnicas de éxito comprobado
+y prevención de errores recurrentes, respectivamente. Existe una ventaja
+que comparten las tres técnicas mencionadas en el presente artículo,
+y esta es una mejora cultural, la cual incluye un avance en la comunicación
+y la documentación.
+Uno de los errores más comunes después de aprender sobre patrones
+de diseño es querer utilizarlos para todo y en todo tipo de código.
+Si se aprenden patrones de diseño, es para facilitar la vida como
+programador, y no complicarla. Sigue viviendo tu vida diaria normalmente,
+y solo utiliza un patrón cuando de veras lo necesites.
+\end{document}
+
+
