@@ -52,8 +52,18 @@ a objetos, mantenimiento, análisis, pruebas, documentación, estructura
 organizacional, etc.
 \end{itemize}
 
-// parte de andres mardones...
-
+Un formato de patrones no alcanza para todas las disciplinas,
+pero lo que sí lo hace es el concepto de patrón como un vehículo para capturar
+y transmitir experiencia, sin importar la disciplina.
+\textquotedblleft{}Un patrón es una solución a un problema en un contexto existen
+varios patrones de diseño popularmente conocidos, los cuales se clasifican
+como se muestra a continuación: 
+\begin{enumerate} 
+\item Patrones Creacionales: Inicialización y configuración de objetos. 
+\item Patrones Estructurales: Separan la interfaz de la implementación. 
+Se ocupan de cómo las clases y objetos se agrupan, para formar estructuras más grandes. 
+\item Patrones de Comportamiento: Más que describir objetos o clases, describen la comunicación entre ellos. 
+\end{enumerate} A continuación se Profundizará sobre los patrones de comportamiento\\
 
 Patrones De Comportamiento
 Tienen que ver con algoritmos y asignación de responsabilidades. Estos
@@ -88,20 +98,6 @@ de diseño es querer utilizarlos para todo y en todo tipo de código.
 Si se aprenden patrones de diseño, es para facilitar la vida como
 programador, y no complicarla. Sigue viviendo tu vida diaria normalmente,
 y solo utiliza un patrón cuando de veras lo necesites.
-
-Un formato de patrones no alcanza para todas las disciplinas,
-pero lo que sí lo hace es el concepto de patrón como un vehículo para capturar
-y transmitir experiencia, sin importar la disciplina.
-\textquotedblleft{}Un patrón es una solución a un problema en un contexto existen
-varios patrones de diseño popularmente conocidos, los cuales se clasifican
-como se muestra a continuación: 
-\begin{enumerate} 
-\item Patrones Creacionales: Inicialización y configuración de objetos. 
-\item Patrones Estructurales: Separan la interfaz de la implementación. 
-Se ocupan de cómo las clases y objetos se agrupan, para formar estructuras más grandes. 
-\item Patrones de Comportamiento: Más que describir objetos o clases, describen la comunicación entre ellos. 
-\end{enumerate} A continuación se Profundizará sobre los patrones de comportamiento\\
-\end{document}
 
 \lyxaddress{El código del presente informe se encuentra en: https://github.com/ClaudioQuiroz/ingenieriadesoftwarelocal}
 \end{document}
